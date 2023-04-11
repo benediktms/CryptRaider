@@ -1,0 +1,121 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch CryptRaider (Debug)",
+			"request": "launch",
+			"program": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Binaries/Linux/UnrealGame-Linux-Debug",
+			"preLaunchTask": "CryptRaider Linux Debug Build",
+			"args": [
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (DebugGame)",
+			"request": "launch",
+			"program": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Binaries/Linux/UnrealGame-Linux-DebugGame",
+			"preLaunchTask": "CryptRaider Linux DebugGame Build",
+			"args": [
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Development)",
+			"request": "launch",
+			"program": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Binaries/Linux/UnrealGame",
+			"preLaunchTask": "CryptRaider Linux Development Build",
+			"args": [
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Test)",
+			"request": "launch",
+			"program": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Binaries/Linux/UnrealGame-Linux-Test",
+			"preLaunchTask": "CryptRaider Linux Test Build",
+			"args": [
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Shipping)",
+			"request": "launch",
+			"program": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Binaries/Linux/UnrealGame-Linux-Shipping",
+			"preLaunchTask": "CryptRaider Linux Shipping Build",
+			"args": [
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (Debug)",
+			"request": "launch",
+			"program": "/home/benedikt/UE_5.1.1/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"preLaunchTask": "CryptRaiderEditor Linux Debug Build",
+			"args": [
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (DebugGame)",
+			"request": "launch",
+			"program": "/home/benedikt/UE_5.1.1/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"preLaunchTask": "CryptRaiderEditor Linux DebugGame Build",
+			"args": [
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (Development)",
+			"request": "launch",
+			"program": "/home/benedikt/UE_5.1.1/Engine/Binaries/Linux/UnrealEditor",
+			"preLaunchTask": "CryptRaiderEditor Linux Development Build",
+			"args": [
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/benedikt/UE_5.1.1",
+			"type": "cppdbg",
+			"visualizerFile": "/home/benedikt/UE_5.1.1/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/home/benedikt/UE_5.1.1/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/home/benedikt/UE_5.1.1"
+		}
+	]
+}

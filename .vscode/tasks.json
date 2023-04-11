@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CryptRaider Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"Linux",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Test",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaider LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaider LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaider",
+				"LinuxArm64",
+				"Shipping",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaiderEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Debug",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaiderEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"DebugGame",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CryptRaiderEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		},
+		{
+			"label": "CryptRaiderEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CryptRaiderEditor",
+				"Linux",
+				"Development",
+				"/home/benedikt/Documents/Unreal Projects/CryptRaider/CryptRaider.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/benedikt/UE_5.1.1"
+			}
+		}
+	]
+}

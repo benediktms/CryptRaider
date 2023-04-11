@@ -1,0 +1,138 @@
+[
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.Build.cs",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaider.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Grabber.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Grabber.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Mover.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/Mover.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_PickUpComponent.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_PickUpComponent.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_WeaponComponent.cpp",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	},
+	{
+		"file": "/home/benedikt/Documents/Unreal Projects/CryptRaider/Source/CryptRaider/TP_WeaponComponent.h",
+		"arguments": [
+			"/home/benedikt/UE_5.1.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/benedikt/Documents/Unreal Projects/CryptRaider/.vscode/compileCommands_CryptRaider/CryptRaider.242.rsp"
+		],
+		"directory": "/home/benedikt/UE_5.1.1/Engine/Source"
+	}
+]
