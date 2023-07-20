@@ -40,7 +40,7 @@ AActor* UTriggerComponent::GetAcceptableActor() const
 
 	for (AActor* Actor : Actors)
 	{
-		if (Actor->ActorHasTag(AcceptableForUnlockTag))
+		if (Actor->ActorHasTag(AcceptableForUnlockTag) && !Actor->ActorHasTag("Grabbed"))
 		{
 			UE_LOG(LogTemp, Log, TEXT("Unlocking"));
 			return Actor;
