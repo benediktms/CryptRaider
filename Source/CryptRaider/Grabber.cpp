@@ -41,9 +41,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 void UGrabber::Grab()
 {
 	UPhysicsHandleComponent* PhysicsHandle = GetPhysicsHandle();
-	FHitResult HitResult;
 
-	if (PhysicsHandle && HasGrabbedInReach(HitResult))
+	if (FHitResult HitResult;
+		PhysicsHandle && HasGrabbedInReach(HitResult))
 	{
 		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 		HitComponent->WakeAllRigidBodies();
@@ -56,8 +56,8 @@ void UGrabber::Grab()
 			HitResult.ImpactPoint,
 			GetComponentRotation());
 
-		AActor* HitActor = HitResult.GetActor();
-		if (HitActor != nullptr)
+		if (AActor* HitActor = HitResult.GetActor();
+			HitActor != nullptr)
 		{
 			HitActor->Tags.Add(GrabbedTag);
 		}

@@ -19,11 +19,19 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	const AActor* ActorForUnlock = GetAcceptableActor();
 
-	if(ActorForUnlock == nullptr)
+	if (ActorForUnlock == nullptr)
 	{
 		Mover->SetShouldMove(false);
-	} else
+	}
+	else
 	{
+		UPrimitiveComponent* Component = Cast<UPrimitiveComponent>(ActorForUnlock->GetRootComponent());
+		if (Component != nullptr)
+		{
+			Component->SetSimulatePhysics(false);
+			Component->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+		}
+
 		Mover->SetShouldMove(true);
 	}
 }
