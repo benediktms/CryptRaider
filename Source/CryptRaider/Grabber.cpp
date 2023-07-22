@@ -33,7 +33,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	if (PhysicsHandle->GetGrabbedComponent() != nullptr)
 	{
-		FVector TargetLocation = GetComponentLocation() + GetForwardVector() * GrabDistance;
+		const FVector TargetLocation = GetComponentLocation() + GetForwardVector() * GrabDistance;
 		PhysicsHandle->SetTargetLocationAndRotation(TargetLocation, GetComponentRotation());
 	}
 }
@@ -46,7 +46,15 @@ void UGrabber::Grab()
 		PhysicsHandle && HasGrabbedInReach(HitResult))
 	{
 		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+		HitComponent->SetSimulatePhysics(true);
 		HitComponent->WakeAllRigidBodies();
+		
+		AActor* HitActor = HitResult.GetActor();
+		if (HitActor != nullptr)
+		{
+			HitActor->Tags.Add(GrabbedTag);
+			HitActor->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		}
 
 		DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10, 10, FColor::Green, false, 5);
 
@@ -56,11 +64,7 @@ void UGrabber::Grab()
 			HitResult.ImpactPoint,
 			GetComponentRotation());
 
-		if (AActor* HitActor = HitResult.GetActor();
-			HitActor != nullptr)
-		{
-			HitActor->Tags.Add(GrabbedTag);
-		}
+
 	}
 }
 
